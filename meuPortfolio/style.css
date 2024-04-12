@@ -1,0 +1,124 @@
+body {
+    background: url(./space.jpeg);
+    background-size: auto;
+    position: absolute;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.vignette {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+    transition: 0.5s;
+}
+header {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 2px 0;
+    margin: 0 auto;
+    width: 400px;
+    transition: 0.25s;
+}
+
+header:hover {
+    border-color: rebeccapurple;
+}
+
+nav {
+    text-align: center;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    text-align: center;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: 0.25s;
+}
+
+nav ul li a:hover{
+    color: blue;
+}
+
+.Fenyx {
+    display: flex;
+    justify-content: center;
+}
+
+.imgFenyx {
+    left: 0;
+    margin-left: 2%;
+    width: 200px;
+    height: 200px;
+    transition: 0.25s;
+}
+
+.imgFenyx:hover {
+    border-radius: 100%;
+    box-shadow: 0 0 50px 10px rgb(79, 0, 158); 
+    width: 250px;
+    height: 250px;
+
+}
+
+.info2 {
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+    margin-left: 48%;
+    margin-right: 2%;
+    color: white;
+    background: black;
+    border: solid;
+    border-radius: 10px;
+    padding: 2%;
+    transition: 0.25s;
+}
+
+.info2:hover {
+    border-color: rebeccapurple
+}
+
+footer {
+    background-color: #cfcfcf;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 -10px 20px 0 rgba(0,0,0,0.9) inset;
+    transition: 0.25s;
+}
+
+footer:hover {
+    background-color: rebeccapurple;
+    color: #cfcfcf;
+}
