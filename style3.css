@@ -86,9 +86,15 @@ nav {
     width: 100%;
 }
 
-.leftdiv, .middlediv {
-    flex: 1 1 300px;
-    padding: 10px;
+.texts{
+    width: 50%;
+    margin: 10px;
+    text-align: justify;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .middlediv {
@@ -122,7 +128,9 @@ nav {
     flex-wrap: wrap;
     gap: 10px;
 }
-
+.logos img {
+    width: 32px;
+}
 .iago p {
     padding-top: 10px;
     text-align: justify;
@@ -150,6 +158,10 @@ nav {
     .navlink {
         color: white;
     }
+
+    .unreal, .gml {
+        fill: white;
+    }
 }
 
 /* Tablet Responsiveness */
@@ -158,9 +170,9 @@ nav {
         margin-left: 0;
         margin-top: 10px;
     }
-
-    .middlediv h2 {
-        max-width: 80%;
+    
+    .texts {
+        width: 100%;
     }
 }
 
@@ -178,7 +190,4 @@ nav {
         font-size: 1rem;
     }
 
-    .middlediv h2 {
-        max-width: 70%;
-    }
 }
